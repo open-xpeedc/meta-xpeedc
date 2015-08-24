@@ -22,7 +22,7 @@ PKG_kernel-image = "kernel-image"
 RPROVIDES_kernel-base = "kernel-${KERNEL_VERSION}"
 RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
-SRC_URI += "http://xpeedlxclass.eu/linux-${PV}-${SRCDATE}.tar.gz \
+SRC_URI += "http://xpeedlxclass.eu/xpeedc-linux-${PV}-${SRCDATE}.tar.gz \
 	file://defconfig \
 	file://add-dmx-source-timecode.patch \
 	file://af9015-output-full-range-SNR.patch \
