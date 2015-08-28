@@ -2,7 +2,7 @@ DESCRIPTION = "Linux kernel for ${MACHINE}"
 SECTION = "kernel"
 LICENSE = "GPLv2"
 
-COMPATIBLE_MACHINE = "xpeedc[s2,c]"
+COMPATIBLE_MACHINE = "xpeedc"
 
 KERNEL_RELEASE = "3.18.18"
 SRCDATE = "20150812"
