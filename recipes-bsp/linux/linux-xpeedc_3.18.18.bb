@@ -24,18 +24,7 @@ RPROVIDES_kernel-image = "kernel-image-${KERNEL_VERSION}"
 
 SRC_URI += "http://xpeedlxclass.eu/xpeedc-linux-${PV}-${SRCDATE}.tar.gz \
 	file://defconfig \
-	file://add-dmx-source-timecode.patch \
-	file://af9015-output-full-range-SNR.patch \
-	file://af9033-output-full-range-SNR.patch \
-	file://cxd2820r-output-full-range-SNR.patch \
-	file://dvb-usb-dib0700-disable-sleep.patch \
-	file://fix-proc-cputype.patch \
-	file://iosched-slice_idle-1.patch \
-	file://it913x-switch-off-PID-filter-by-default.patch \
-	file://mxl5007t-add-no_probe-and-no_reset-parameters.patch \
-	file://tda18271-advertise-supported-delsys.patch \
-	file://timedate.patch \
-	"
+		"
 
 inherit kernel machine_kernel_pr
 
