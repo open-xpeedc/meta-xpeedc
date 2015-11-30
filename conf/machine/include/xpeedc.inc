@@ -24,7 +24,7 @@ DEFAULTTUNE = "mips32el"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-xpeedc"
 
-PREFERRED_PROVIDER_virtual/blindscan-dvbc = "xpeedc-blindscan-dvbc-utils-${MACHINE}"
+PREFERRED_PROVIDER_virtual/blindscan-dvbc = "blindscan-dvbc-utils-${MACHINE}"
 
 
 KERNEL_IMAGETYPE = "vmlinux"
