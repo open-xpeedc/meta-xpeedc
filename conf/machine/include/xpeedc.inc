@@ -57,3 +57,4 @@ IMAGE_CMD_ubi_prepend = " \
 MACHINE_FEATURES += "alsa usbhost wlan kernelwifi extrakernelwifi 3dtv switchoff osdposition hdmicec"
 
 require conf/machine/include/tune-mips32.inc
+require conf/machine/include/xpeedc-wifi.inc
