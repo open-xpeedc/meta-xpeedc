@@ -2,11 +2,9 @@ SUMMARY = "Utilities for transponder & dvb-s blindscan"
 SECTION = "base"
 PRIORITY = "optional"
 RDEPENDS_${PN} = "ncurses"
-
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 LICENSE = "CLOSED"
-require conf/license/license-close.inc
 
 PACKAGES = "xpeedlxpro-blindscan-dvbs-utils xpeedlxpro-blindscan-dvbs-utils-dbg xpeedlxpro-blindscan-dvbc-utils xpeedlxpro-blindscan-dvbc-utils-dbg"
 

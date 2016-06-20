@@ -1,13 +1,13 @@
 SUMMARY = "XpeedLX PRO flashing bootlogo"
 SECTION = "base"
 PRIORITY = "required"
-MAINTAINER = "Xpeed LX PRO"
+MAINTAINER = "Xpeed"
+LICENSE = "CLOSED"
 
-require conf/license/license-gplv2.inc
 inherit deploy
 
 PV = "1.0"
-PR = "r3"
+PR = "r1"
 
 S = "${WORKDIR}"
 
